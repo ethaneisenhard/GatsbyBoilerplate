@@ -1,2 +1,2 @@
-# biolerplate
+# boilerplate
 Gatsby Boilerplate
