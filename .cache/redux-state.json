@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/ethan/GatsbyBoilerplate/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "isCreatedByStatefulCreatePages": true,
-      "context": {},
-      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/ethan/GatsbyBoilerplate/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "69e203c603a7dd707448ee069496eb07",
-        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -1581,16 +1571,14 @@
         "description": "Gatsby Boilerplate",
         "author": "Ethan Eisenhard"
       },
-      "port": 8000,
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-05-29T02:13:08.437Z",
+      "buildTime": "2019-05-29T02:36:58.224Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "d4da7d249c242271a272d479b056c2ad",
+        "contentDigest": "915315dacf3278c14956662aa39c32ec",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1600,7 +1588,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "2dee13506af81a5985f50c0689ed0999",
+        "contentDigest": "8beb74ee27840ff0861ab0fb00c1c1a5",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1612,7 +1600,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2019-05-29T02:12:39.813Z",
-      "accessTime": "2019-05-29T02:13:10.743Z",
+      "accessTime": "2019-05-29T02:37:00.312Z",
       "changeTime": "2019-05-29T02:12:39.813Z",
       "birthTime": "2019-04-02T23:16:36.873Z",
       "root": "/",
@@ -1630,11 +1618,11 @@
       "blksize": 4194304,
       "ino": 16087278,
       "blocks": 0,
-      "atimeMs": 1559095990743.4128,
+      "atimeMs": 1559097420311.8125,
       "mtimeMs": 1559095959813.0215,
       "ctimeMs": 1559095959813.0215,
       "birthtimeMs": 1554246996872.8896,
-      "atime": "2019-05-29T02:13:10.743Z",
+      "atime": "2019-05-29T02:37:00.312Z",
       "mtime": "2019-05-29T02:12:39.813Z",
       "ctime": "2019-05-29T02:12:39.813Z",
       "birthtime": "2019-04-02T23:16:36.873Z"
@@ -1836,7 +1824,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "924f9f0a6b7d1c3d96a31f105d1e7dd5",
+        "contentDigest": "aa7d72190fb2817d5df5ca3cda9b989b",
         "type": "Directory",
         "description": "Directory \"content/blog\"",
         "owner": "gatsby-source-filesystem"
@@ -1848,7 +1836,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-04-03T17:43:32.543Z",
-      "accessTime": "2019-05-29T02:13:10.756Z",
+      "accessTime": "2019-05-29T02:37:00.321Z",
       "changeTime": "2019-04-08T18:35:45.179Z",
       "birthTime": "2019-04-03T16:55:32.144Z",
       "root": "/",
@@ -1866,11 +1854,11 @@
       "blksize": 4194304,
       "ino": 16039205,
       "blocks": 0,
-      "atimeMs": 1559095990756.318,
+      "atimeMs": 1559097420321.196,
       "mtimeMs": 1554313412542.9363,
       "ctimeMs": 1554748545178.505,
       "birthtimeMs": 1554310532143.73,
-      "atime": "2019-05-29T02:13:10.756Z",
+      "atime": "2019-05-29T02:37:00.321Z",
       "mtime": "2019-04-03T17:43:32.543Z",
       "ctime": "2019-04-08T18:35:45.179Z",
       "birthtime": "2019-04-03T16:55:32.144Z"
@@ -1946,7 +1934,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "89559ca7d0590b0f689bcaa143050232",
+        "contentDigest": "27859b3c34b464744f5671764835fa00",
         "type": "Directory",
         "description": "Directory \"content/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1958,7 +1946,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-04-07T16:06:24.284Z",
-      "accessTime": "2019-05-29T02:13:10.773Z",
+      "accessTime": "2019-05-29T02:37:00.324Z",
       "changeTime": "2019-04-08T18:35:45.180Z",
       "birthTime": "2019-04-03T17:44:17.496Z",
       "root": "/",
@@ -1976,11 +1964,11 @@
       "blksize": 4194304,
       "ino": 16039207,
       "blocks": 0,
-      "atimeMs": 1559095990773.4355,
+      "atimeMs": 1559097420323.8176,
       "mtimeMs": 1554653184284.204,
       "ctimeMs": 1554748545179.5076,
       "birthtimeMs": 1554313457496.1191,
-      "atime": "2019-05-29T02:13:10.773Z",
+      "atime": "2019-05-29T02:37:00.324Z",
       "mtime": "2019-04-07T16:06:24.284Z",
       "ctime": "2019-04-08T18:35:45.180Z",
       "birthtime": "2019-04-03T17:44:17.496Z"
@@ -2279,14 +2267,6 @@
     "about-f34": "708/path---about-f-34-4c2-0SUcWyAf8ecbYDsMhQkEfPzV8"
   },
   "components": {
-    "/Users/ethan/GatsbyBoilerplate/.cache/dev-404-page.js": {
-      "componentPath": "/Users/ethan/GatsbyBoilerplate/.cache/dev-404-page.js",
-      "query": "",
-      "pages": [
-        "/dev-404-page/"
-      ],
-      "isInBootstrap": false
-    },
     "/Users/ethan/GatsbyBoilerplate/src/pages/404.js": {
       "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/404.js",
       "query": "",
@@ -2294,7 +2274,7 @@
         "/404/",
         "/404.html"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/ethan/GatsbyBoilerplate/src/pages/about.js": {
       "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/about.js",
@@ -2302,7 +2282,7 @@
       "pages": [
         "/about/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/ethan/GatsbyBoilerplate/src/pages/blog.js": {
       "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/blog.js",
@@ -2310,7 +2290,7 @@
       "pages": [
         "/blog/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/ethan/GatsbyBoilerplate/src/pages/career.js": {
       "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/career.js",
@@ -2318,7 +2298,7 @@
       "pages": [
         "/career/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/ethan/GatsbyBoilerplate/src/pages/contact.js": {
       "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/contact.js",
@@ -2326,7 +2306,7 @@
       "pages": [
         "/contact/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/ethan/GatsbyBoilerplate/src/pages/index.js": {
       "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/index.js",
@@ -2334,7 +2314,7 @@
       "pages": [
         "/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/ethan/GatsbyBoilerplate/src/pages/services.js": {
       "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/services.js",
@@ -2342,7 +2322,7 @@
       "pages": [
         "/services/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     }
   },
   "staticQueryComponents": {

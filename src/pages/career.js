@@ -3,7 +3,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import SubPage from "../components/SubPage"
+import SubPage from "../components/subPage"
 import "../styles/pages/career.scss"
 
 const Career = () => (
