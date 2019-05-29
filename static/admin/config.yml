@@ -1,0 +1,33 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+     preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "Pages"
+    label: "Pages"
+    files:
+      - file: "content/pages/index.md"
+        label: "Landing Page"
+        name: "index"
+        fields:
+          - {label: Template Key, name: templateKey, widget: hidden, default: home-page }
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Heading, name: heading, widget: string}
+          - {label: Subheading, name: subheading, widget: string}
+          - { label: "Body", name: "body", widget: "markdown" }

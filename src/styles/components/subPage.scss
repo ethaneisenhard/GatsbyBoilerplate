@@ -1,0 +1,9 @@
+@import "../components/variables.scss";
+
+.subPage{
+    background-image: linear-gradient(to right, $purple-color, $green-color);    color: white;
+    height: 100vh;
+    margin-top: -100px;
+    padding-top: 140px;
+    text-align: center;
+}

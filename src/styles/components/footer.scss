@@ -1,0 +1,79 @@
+@import "../components/variables.scss";
+
+
+footer{
+    background-color: #f4f7f8;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    padding: 40px 0px;
+
+
+    a{
+        color: black;
+    }
+
+    .logo{
+        margin:auto;
+        
+        img{
+            height: 3em;
+        }
+        
+        
+    }
+
+    .contact{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        margin:auto;
+
+        .sign-up{
+            display: flex;
+            margin-bottom: 40px;
+
+            input{
+                height: 50px;
+                border-radius: 80px 0 0 80px;
+                border: 1px solid $green-color;
+                padding-left: 30px;
+            }
+    
+            button{
+                display: block;
+                color: white;
+                border: 1px solid #438eae;
+                background-image: linear-gradient(to top left,#438eae,#3a0b6e);
+                height: 50px;
+                width: 100px;
+                cursor: pointer;
+                border-radius: 0 80px 80px 0;
+            }
+        }
+
+       
+    }
+
+    .footerMenu{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        
+        
+        a{
+            margin: 0px 10px;
+        }
+        
+    }
+
+    .copyright{
+        margin-top: 40px;
+
+        a{
+            margin: 0px 5px;
+        }
+    }
+}

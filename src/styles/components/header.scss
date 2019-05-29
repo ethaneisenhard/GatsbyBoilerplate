@@ -1,0 +1,110 @@
+@import "../components/variables.scss";
+
+header {
+    background-color: transparent;
+
+    nav.header-nav{
+        max-width: 1240px;
+        display: flex;
+        margin: auto;
+        padding: 20px 20px 10px 20px;
+
+    }
+
+    .header-logo-container{
+        display: flex;
+        flex-flow: column;
+        align-items: flex-end;
+
+        .header-logo {
+            height: 2em;
+            margin: 0;
+            width: 7.4em;
+        }
+
+        span{
+            color: #438eae;
+            font-size: 16px;
+            font-family: Arial;
+            font-weight: 700;
+            margin-top: -8px;
+            margin-right: 17px;
+        }
+
+        a{
+            margin: 0;
+            padding:0;
+        }
+    }
+
+    .header-menu-container{
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        margin-top: -2px;
+
+        @media only screen and (max-width: 900px){
+            display: none;
+        }
+        
+        a{
+            color: white;
+            padding: 0px 10px;
+            
+        }
+
+        .get-started{
+            display: block;
+            background-color: #3a0b6e;
+            padding: 10px 18px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+            border-radius: 2px;
+            transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+            &:hover {
+                box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            }
+        }
+    }
+
+   
+
+}
+
+
+.headroom {
+top: 0;
+left: 0;
+right: 0;
+z-index: 1;
+transform: none;
+}
+.headroom--unfixed {
+position: relative;
+transform: translateY(0);
+background-color: transparent;
+transform: none !important;
+
+}
+.headroom--scrolled {
+transition: transform 200ms ease-in-out;
+}
+.headroom--unpinned {
+position: fixed;
+transform: translateY(-100%);
+background-image: linear-gradient(to right, #3a0b6e, #438eae);
+box-shadow: 0 2px 40px rgba(14, 30, 37, 0.16);
+padding-bottom: 6px;
+
+}
+.headroom--pinned {
+background-image: linear-gradient(to right, #3a0b6e, #438eae);
+box-shadow: 0 2px 40px rgba(14, 30, 37, 0.16);
+padding-bottom: 6px;
+
+    .bm-burger-button{
+        top: 24px;
+    }
+}
+
+    

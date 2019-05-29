@@ -1,0 +1,286 @@
+@import "/components/variables.scss";
+
+#hero{
+background-color: #3a0b6e;
+background-image: linear-gradient(to right, $purple-color, $green-color);
+background-size: cover;
+padding-top: 100px;
+margin-top: -80px;
+height: 80vh;
+min-height: 700px;
+
+
+
+    .hero-container{
+        display: flex;
+        margin: auto;
+        max-width: 1300px;
+
+        .hero-text{
+            position: relative;
+            color: white;
+            left: 5%;
+            width: 50%;
+            margin-top: 5%;
+
+            h2{
+                margin-bottom: 0px;
+            }
+    
+    
+            h1{
+                text-shadow: 0 2px 20px rgba(0,0,0,.16);
+                font-size: 2.618em;
+            }
+    
+            p{
+                text-shadow: 0 2px 20px rgba(0,0,0,.16);
+                font-size: 1.2em;
+            }
+
+            .button-container{
+                display: flex;
+                flex-flow: row nowrap;
+
+                a{
+                    color: white;
+                    display: block;
+                    text-align: center;
+                    background-color: #438eae;
+                    padding: 10px 18px;
+                    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+                    border-radius: 2px;
+                    transition: box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+                    width: 250px;
+                    margin: 10px 0px;
+        
+                    &:hover {
+                        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+                    }
+
+                    &.how-it-works{
+                        margin-left: 20px;
+                        background-color: #f4f7f8;
+                        color: #3a0b6e;
+
+                        @media only screen and (max-width: 1250px){
+                            margin-left: 0px;
+                        }
+                    }
+
+
+                }
+
+                @media only screen and (max-width: 1250px){
+                    flex-flow: column wrap;
+                }
+
+            }
+
+          
+        }
+    
+        .hero-image{
+            width: 900px;
+        }
+
+        @media only screen and (max-width: 1280px){
+            .hero-image{
+                width: 70%;
+            }
+        }
+        @media only screen and (max-width: 900px){
+
+            .hero-image{
+                width: 50%;
+
+            }
+
+            .hero-text{
+
+                h1{
+                    font-size: 2em;
+                }
+                h2{
+                    font-size: 1em;
+                }
+
+                p{
+                    font-size: 1em;
+                }
+            }
+        }
+
+        @media only screen and (max-width: 700px){
+            flex-flow: column;
+
+            .hero-image{
+                width: 50%;
+                order: 1;
+                display:none;
+            }
+
+            .hero-text{
+                order: 2;
+
+                h1{
+                    font-size: 2em;
+                }
+                h2{
+                    font-size: 1em;
+                }
+
+                p{
+                    font-size: 1em;
+                }
+            }
+        }
+
+        @media only screen and (max-width: 700px){
+
+            .hero-image{
+                width: 70%;
+                order: 1;
+                img{
+                    margin-bottom: 0px;
+                }
+            }
+
+            .hero-text{
+                order: 2;
+                margin-left: 20px;
+                margin-top: 0px;
+                width: 70%;
+
+                h1{
+                    font-size: 3.2em;
+                }
+                h2{
+                    font-size: 1.1em;
+                }
+
+                p{
+                    font-size: 1em;
+                }
+            }
+        }
+
+
+
+    }
+
+    @media only screen and (max-width: 1280px){
+        min-height: 700px;
+        
+    }
+
+
+    @media only screen and (max-width: 900px){
+        height: 40vh;
+        min-height: 600px;
+    }
+
+    @media only screen and (max-width: 700px){
+        height: auto;
+        min-height: none;
+    }
+
+    
+
+
+}
+
+#resources{
+    background-color: #f4f7f8;
+    
+
+    .text-container{
+        text-align: center;
+        padding: 80px 20px 0px 20px;
+
+        h3{
+            font-size: 2em;
+            font-weight: 500;
+        }
+
+    }
+
+    .resource-links{
+    display: flex;
+    flex-flow: row wrap;
+    margin:auto;
+    max-width: 500px;
+
+    @media only screen and (max-width: 700px){
+        flex-flow: column;
+    }
+
+
+
+    .column{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    margin:auto;
+
+    @media only screen and (max-width: 700px){
+        margin: initial;
+        padding: 0px 20px;
+    }
+
+
+
+            div{
+                height: 120px;
+
+                a{
+                    display: block;
+                    width: 200px;
+                    padding: 20px 0px;
+                    text-align: center;
+                    background-color: #00ad9f;
+                    color: white;
+                    border-radius: 5px;
+                    transition-duration: 0.4s;
+                    margin: 10px 0px;
+
+                    &:hover {
+                        background-color: #3a0b6e;
+                    }
+
+                    @media only screen and (max-width: 700px){
+                        width: 100%;
+                    }
+
+                }
+
+                
+            }
+
+        }
+ 
+    }
+
+
+    .get-started{
+        margin: auto;
+        a{
+            color: white;
+            display: block;
+            text-align: center;
+            background-color: #3a0b6e;
+            padding: 20px 25px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+            border-radius: 2px;
+            transition: box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+            width: 250px;
+            margin: auto;
+            border-radius: 5px;
+
+            &:hover {
+                box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            }
+        }
+    }
+
+}

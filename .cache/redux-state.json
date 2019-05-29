@@ -1,0 +1,2374 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/ethan/GatsbyBoilerplate/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "69e203c603a7dd707448ee069496eb07",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e5f72e92a7b12b170908b7387a3d3d07",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "4309776fbe80f615de4b67650e92333a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "4e143dcfd17819109860d36999e2d0f0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "efaaa37d2d33fa7dc4d26b8c1db37df0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ca3ad8cc0ad36e1e2be6400c107421b7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e7e600eea364c9d5f22373d85e8c2eec",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-plugin-sass",
+      "id": "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8",
+      "name": "gatsby-plugin-sass",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^7.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "7d45d3c9e61600efc6475452d053f18b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "1a0c546c1805f958ba564e8bd98c2a60",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4303f310-a6d0-5b7c-b8cd-0fc45931d73d": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-plugin-netlify-cms",
+      "id": "4303f310-a6d0-5b7c-b8cd-0fc45931d73d",
+      "name": "gatsby-plugin-netlify-cms",
+      "version": "3.0.17",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateDevServer",
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [
+        "onInitialClientRender"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-plugin-netlify-cms",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify-cms",
+        "description": "A Gatsby plugin which generates the Netlify CMS single page app",
+        "version": "3.0.17",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "netlify",
+          "netlify-cms",
+          "cms"
+        ],
+        "author": {
+          "name": "Shawn Erquhart",
+          "email": "shawn@erquh.art"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@pieh/friendly-errors-webpack-plugin",
+            "version": "1.7.0-chalk-2"
+          },
+          {
+            "name": "html-webpack-exclude-assets-plugin",
+            "version": "^0.0.7"
+          },
+          {
+            "name": "html-webpack-plugin",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-css-extract-plugin",
+            "version": "^0.4.1"
+          },
+          {
+            "name": "netlify-identity-widget",
+            "version": "^1.4.11"
+          },
+          {
+            "name": "webpack",
+            "version": "^4.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "react",
+            "version": "^16.4.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.4.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.101"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^2.0.6"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "29e9598075d98ea0fe1716fe37f2ffd6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-transformer-remark",
+      "id": "9f28d07a-37b6-51d1-b2d0-5071b57d6dd2",
+      "name": "gatsby-transformer-remark",
+      "version": "2.3.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.3.8",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "90c01b67596a60c3a6d3ecd8187dd6a1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d40727f4-266f-5f07-bd66-626d4211a89a": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-source-filesystem",
+      "id": "d40727f4-266f-5f07-bd66-626d4211a89a",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/ethan/GatsbyBoilerplate/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c65f912737542ac85d166754f55a3e00",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "8bf01c4f-808c-5aa3-aedd-8f705b681f29": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-source-filesystem",
+      "id": "8bf01c4f-808c-5aa3-aedd-8f705b681f29",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "blog",
+        "path": "/Users/ethan/GatsbyBoilerplate/content/blog"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "096557cced3224d274e9ea075acb2df1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "86e4c45f-26ea-5007-a376-68624e85e06e": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-source-filesystem",
+      "id": "86e4c45f-26ea-5007-a376-68624e85e06e",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.28",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "pages",
+        "path": "/Users/ethan/GatsbyBoilerplate/content/pages"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.28",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "28d687dd225e1350acdb6d0c7b5ef053",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.17",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.17",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5cb9464d8ae03cc7cd7038c2a95eba2c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.32",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.32",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^1.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "60b578061d5e695a032ed6790c77bb20",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "128a347f-2216-57ee-88cf-454992e5de3f": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-plugin-manifest",
+      "id": "128a347f-2216-57ee-88cf-454992e5de3f",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.26",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "gatsby-starter-default",
+        "short_name": "starter",
+        "start_url": "/",
+        "background_color": "#663399",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "src/images/gatsby-dark.svg"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.26",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.15"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "94d7b41e6b4b8d6ac6e40b9e67d2e474",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "d07ed687aa4581a7514f1fb53383d566",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Netlify Marekting ",
+        "version": "0.1.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "anonymous",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "body-scroll-lock",
+            "version": "^2.6.1"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.3.5"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.37"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.26"
+          },
+          {
+            "name": "gatsby-plugin-netlify-cms",
+            "version": "^3.0.17"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.25"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.11"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.32"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.28"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.3.8"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.17"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^2.9.0"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.11.0"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.7.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.6"
+          },
+          {
+            "name": "react-burger-menu",
+            "version": "^2.6.8"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.6"
+          },
+          {
+            "name": "react-headroom",
+            "version": "^2.2.8"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-modal",
+            "version": "^3.8.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.16.4"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "4ee5856a78cd40154d02870786ed983b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc": {
+      "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-plugin-page-creator",
+      "id": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.12",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/ethan/GatsbyBoilerplate/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "2.1.2"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "08fb44c8348a97d5aa1f0c3d76fb0a69",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Boilerplate",
+        "description": "Gatsby Boilerplate",
+        "author": "Ethan Eisenhard"
+      },
+      "port": 8000,
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-05-29T02:13:08.437Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d4da7d249c242271a272d479b056c2ad",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "40e7c14e-278d-58e5-a604-60f8b7198097": {
+      "id": "40e7c14e-278d-58e5-a604-60f8b7198097",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2dee13506af81a5985f50c0689ed0999",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/GatsbyBoilerplate/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2019-05-29T02:12:39.813Z",
+      "accessTime": "2019-05-29T02:13:10.743Z",
+      "changeTime": "2019-05-29T02:12:39.813Z",
+      "birthTime": "2019-04-02T23:16:36.873Z",
+      "root": "/",
+      "dir": "/Users/ethan/GatsbyBoilerplate/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 7,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087278,
+      "blocks": 0,
+      "atimeMs": 1559095990743.4128,
+      "mtimeMs": 1559095959813.0215,
+      "ctimeMs": 1559095959813.0215,
+      "birthtimeMs": 1554246996872.8896,
+      "atime": "2019-05-29T02:13:10.743Z",
+      "mtime": "2019-05-29T02:12:39.813Z",
+      "ctime": "2019-05-29T02:12:39.813Z",
+      "birthtime": "2019-04-02T23:16:36.873Z"
+    },
+    "0ead1ec3-4993-5d2f-9710-758626f42aa4": {
+      "id": "0ead1ec3-4993-5d2f-9710-758626f42aa4",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d5c9ecbe1500c6f3911b70e4dca677b7",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/gatsby-dark.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/GatsbyBoilerplate/src/images/gatsby-dark.svg",
+      "relativePath": "gatsby-dark.svg",
+      "extension": "svg",
+      "size": 521,
+      "prettySize": "521 B",
+      "modifiedTime": "2019-05-29T02:12:13.460Z",
+      "accessTime": "2019-05-29T02:12:59.151Z",
+      "changeTime": "2019-05-29T02:12:40.825Z",
+      "birthTime": "2019-05-29T02:12:13.452Z",
+      "root": "/",
+      "dir": "/Users/ethan/GatsbyBoilerplate/src/images",
+      "base": "gatsby-dark.svg",
+      "ext": ".svg",
+      "name": "gatsby-dark",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 18518703,
+      "blocks": 8,
+      "atimeMs": 1559095979150.9565,
+      "mtimeMs": 1559095933459.6555,
+      "ctimeMs": 1559095960824.746,
+      "birthtimeMs": 1559095933451.6719,
+      "atime": "2019-05-29T02:12:59.151Z",
+      "mtime": "2019-05-29T02:12:13.460Z",
+      "ctime": "2019-05-29T02:12:40.825Z",
+      "birthtime": "2019-05-29T02:12:13.452Z"
+    },
+    "f0395f88-d039-5a73-a3ce-807666e832de": {
+      "id": "f0395f88-d039-5a73-a3ce-807666e832de",
+      "children": [
+        "510593d8-0c25-5175-bdd4-fef2caf56bea"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/GatsbyBoilerplate/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2019-04-02T23:16:36.874Z",
+      "accessTime": "2019-05-29T02:13:10.744Z",
+      "changeTime": "2019-04-08T18:36:07.797Z",
+      "birthTime": "2019-04-02T23:16:36.874Z",
+      "root": "/",
+      "dir": "/Users/ethan/GatsbyBoilerplate/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087298,
+      "blocks": 48,
+      "atimeMs": 1559095990743.748,
+      "mtimeMs": 1554246996874.1472,
+      "ctimeMs": 1554748567796.7324,
+      "birthtimeMs": 1554246996873.9678,
+      "atime": "2019-05-29T02:13:10.744Z",
+      "mtime": "2019-04-02T23:16:36.874Z",
+      "ctime": "2019-04-08T18:36:07.797Z",
+      "birthtime": "2019-04-02T23:16:36.874Z"
+    },
+    "82209b92-be75-5dfc-a62e-e3a3e09f852d": {
+      "id": "82209b92-be75-5dfc-a62e-e3a3e09f852d",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "99038063a0c1a7845ffbd90c7e97cfe9",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/gatsby-logo.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/GatsbyBoilerplate/src/images/gatsby-logo.svg",
+      "relativePath": "gatsby-logo.svg",
+      "extension": "svg",
+      "size": 895,
+      "prettySize": "895 B",
+      "modifiedTime": "2019-05-29T01:30:18.548Z",
+      "accessTime": "2019-05-29T02:11:24.732Z",
+      "changeTime": "2019-05-29T01:30:18.549Z",
+      "birthTime": "2019-05-29T01:30:18.536Z",
+      "root": "/",
+      "dir": "/Users/ethan/GatsbyBoilerplate/src/images",
+      "base": "gatsby-logo.svg",
+      "ext": ".svg",
+      "name": "gatsby-logo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 18517209,
+      "blocks": 8,
+      "atimeMs": 1559095884732.2302,
+      "mtimeMs": 1559093418547.8381,
+      "ctimeMs": 1559093418548.5889,
+      "birthtimeMs": 1559093418536.1423,
+      "atime": "2019-05-29T02:11:24.732Z",
+      "mtime": "2019-05-29T01:30:18.548Z",
+      "ctime": "2019-05-29T01:30:18.549Z",
+      "birthtime": "2019-05-29T01:30:18.536Z"
+    },
+    "5f30dca0-976a-5e48-85b6-fd152dd923fb": {
+      "id": "5f30dca0-976a-5e48-85b6-fd152dd923fb",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d1bd4450d0ff2983e756b92bb3d5735e",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/trending.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/ethan/GatsbyBoilerplate/src/images/trending.svg",
+      "relativePath": "trending.svg",
+      "extension": "svg",
+      "size": 75036,
+      "prettySize": "75 kB",
+      "modifiedTime": "2019-04-05T19:48:25.924Z",
+      "accessTime": "2019-05-29T02:11:03.706Z",
+      "changeTime": "2019-04-08T18:36:07.796Z",
+      "birthTime": "2019-04-05T19:48:25.838Z",
+      "root": "/",
+      "dir": "/Users/ethan/GatsbyBoilerplate/src/images",
+      "base": "trending.svg",
+      "ext": ".svg",
+      "name": "trending",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16087296,
+      "blocks": 152,
+      "atimeMs": 1559095863705.8718,
+      "mtimeMs": 1554493705923.782,
+      "ctimeMs": 1554748567796.0005,
+      "birthtimeMs": 1554493705837.6443,
+      "atime": "2019-05-29T02:11:03.706Z",
+      "mtime": "2019-04-05T19:48:25.924Z",
+      "ctime": "2019-04-08T18:36:07.796Z",
+      "birthtime": "2019-04-05T19:48:25.838Z"
+    },
+    "510593d8-0c25-5175-bdd4-fef2caf56bea": {
+      "id": "510593d8-0c25-5175-bdd4-fef2caf56bea",
+      "children": [],
+      "parent": "f0395f88-d039-5a73-a3ce-807666e832de",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "44f00f76-a86c-5874-b4e6-980688bf8f16": {
+      "id": "44f00f76-a86c-5874-b4e6-980688bf8f16",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "924f9f0a6b7d1c3d96a31f105d1e7dd5",
+        "type": "Directory",
+        "description": "Directory \"content/blog\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/ethan/GatsbyBoilerplate/content/blog",
+      "relativePath": "",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-04-03T17:43:32.543Z",
+      "accessTime": "2019-05-29T02:13:10.756Z",
+      "changeTime": "2019-04-08T18:35:45.179Z",
+      "birthTime": "2019-04-03T16:55:32.144Z",
+      "root": "/",
+      "dir": "/Users/ethan/GatsbyBoilerplate/content",
+      "base": "blog",
+      "ext": "",
+      "name": "blog",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16039205,
+      "blocks": 0,
+      "atimeMs": 1559095990756.318,
+      "mtimeMs": 1554313412542.9363,
+      "ctimeMs": 1554748545178.505,
+      "birthtimeMs": 1554310532143.73,
+      "atime": "2019-05-29T02:13:10.756Z",
+      "mtime": "2019-04-03T17:43:32.543Z",
+      "ctime": "2019-04-08T18:35:45.179Z",
+      "birthtime": "2019-04-03T16:55:32.144Z"
+    },
+    "1f83f371-a583-5b2c-bf8b-222a55551878": {
+      "id": "1f83f371-a583-5b2c-bf8b-222a55551878",
+      "children": [
+        "9b9495e5-a40c-5cc3-9ed7-9f202b59aaad"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "10b202ac85a093118a7f64fd5d53ba4e",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/2019-04-03-testing.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/ethan/GatsbyBoilerplate/content/blog/2019-04-03-testing.md",
+      "relativePath": "2019-04-03-testing.md",
+      "extension": "md",
+      "size": 108,
+      "prettySize": "108 B",
+      "modifiedTime": "2019-04-03T17:43:32.543Z",
+      "accessTime": "2019-05-29T02:11:24.731Z",
+      "changeTime": "2019-04-08T18:35:45.178Z",
+      "birthTime": "2019-04-03T17:43:32.543Z",
+      "root": "/",
+      "dir": "/Users/ethan/GatsbyBoilerplate/content/blog",
+      "base": "2019-04-03-testing.md",
+      "ext": ".md",
+      "name": "2019-04-03-testing",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16039206,
+      "blocks": 8,
+      "atimeMs": 1559095884731.2993,
+      "mtimeMs": 1554313412543.0652,
+      "ctimeMs": 1554748545178.3975,
+      "birthtimeMs": 1554313412542.9187,
+      "atime": "2019-05-29T02:11:24.731Z",
+      "mtime": "2019-04-03T17:43:32.543Z",
+      "ctime": "2019-04-08T18:35:45.178Z",
+      "birthtime": "2019-04-03T17:43:32.543Z"
+    },
+    "9b9495e5-a40c-5cc3-9ed7-9f202b59aaad": {
+      "id": "9b9495e5-a40c-5cc3-9ed7-9f202b59aaad",
+      "children": [],
+      "parent": "1f83f371-a583-5b2c-bf8b-222a55551878",
+      "internal": {
+        "content": "this is the ultimate test\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "0f2832fdc94de6968fc82f19948054e9",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "testing",
+        "date": "2019-04-03T17:42:52.192Z",
+        "description": "this is a test"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "this is the ultimate test\n",
+      "fileAbsolutePath": "/Users/ethan/GatsbyBoilerplate/content/blog/2019-04-03-testing.md"
+    },
+    "e45ab09e-9011-5690-9449-861128a16e61": {
+      "id": "e45ab09e-9011-5690-9449-861128a16e61",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "89559ca7d0590b0f689bcaa143050232",
+        "type": "Directory",
+        "description": "Directory \"content/pages\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/ethan/GatsbyBoilerplate/content/pages",
+      "relativePath": "",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-04-07T16:06:24.284Z",
+      "accessTime": "2019-05-29T02:13:10.773Z",
+      "changeTime": "2019-04-08T18:35:45.180Z",
+      "birthTime": "2019-04-03T17:44:17.496Z",
+      "root": "/",
+      "dir": "/Users/ethan/GatsbyBoilerplate/content",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16039207,
+      "blocks": 0,
+      "atimeMs": 1559095990773.4355,
+      "mtimeMs": 1554653184284.204,
+      "ctimeMs": 1554748545179.5076,
+      "birthtimeMs": 1554313457496.1191,
+      "atime": "2019-05-29T02:13:10.773Z",
+      "mtime": "2019-04-07T16:06:24.284Z",
+      "ctime": "2019-04-08T18:35:45.180Z",
+      "birthtime": "2019-04-03T17:44:17.496Z"
+    },
+    "60bd1622-82cc-5311-8225-d733f8ab8c91": {
+      "id": "60bd1622-82cc-5311-8225-d733f8ab8c91",
+      "children": [
+        "9e3638fe-970c-5778-b528-9f66eb2f9094"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1165ed47996ed6feb62ff19094d34a6a",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/pages/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/ethan/GatsbyBoilerplate/content/pages/index.md",
+      "relativePath": "index.md",
+      "extension": "md",
+      "size": 379,
+      "prettySize": "379 B",
+      "modifiedTime": "2019-04-07T16:06:24.284Z",
+      "accessTime": "2019-05-29T02:11:24.731Z",
+      "changeTime": "2019-04-08T18:35:45.179Z",
+      "birthTime": "2019-04-07T16:06:24.284Z",
+      "root": "/",
+      "dir": "/Users/ethan/GatsbyBoilerplate/content/pages",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 16039208,
+      "blocks": 8,
+      "atimeMs": 1559095884731.3835,
+      "mtimeMs": 1554653184284.365,
+      "ctimeMs": 1554748545179.372,
+      "birthtimeMs": 1554653184284.1946,
+      "atime": "2019-05-29T02:11:24.731Z",
+      "mtime": "2019-04-07T16:06:24.284Z",
+      "ctime": "2019-04-08T18:35:45.179Z",
+      "birthtime": "2019-04-07T16:06:24.284Z"
+    },
+    "9e3638fe-970c-5778-b528-9f66eb2f9094": {
+      "id": "9e3638fe-970c-5778-b528-9f66eb2f9094",
+      "children": [],
+      "parent": "60bd1622-82cc-5311-8225-d733f8ab8c91",
+      "internal": {
+        "content": "Netlify Analytics\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "a73f1fb7258d108eeb4d82e12d3cbf3f",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Introducing",
+        "image": "/images/trending.svg",
+        "heading": "Netlify Analtyics",
+        "subheading": "Netlify Analytics allows you to test your site without any pain. With real-time data we provide your company with true personalization, simple A/B testing, and seamless integration. Best of all, without any javascript libraries or loss of any performance."
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "Netlify Analytics\n",
+      "fileAbsolutePath": "/Users/ethan/GatsbyBoilerplate/content/pages/index.md"
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/ethan/GatsbyBoilerplate/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+      "pluginCreatorId": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a34ec080e57cfe46039e00b0e0680c49",
+        "description": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/ethan/GatsbyBoilerplate/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+      "pluginCreatorId": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7c5964c08d8dcd84478889a38507cfc1",
+        "description": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/": {
+      "jsonName": "blog-f7a",
+      "internalComponentName": "ComponentBlog",
+      "path": "/blog/",
+      "component": "/Users/ethan/GatsbyBoilerplate/src/pages/blog.js",
+      "componentChunkName": "component---src-pages-blog-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+      "pluginCreatorId": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/blog.js",
+      "id": "SitePage /blog/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "473be96e1cfa33daea2d577b64bd29bf",
+        "description": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /career/": {
+      "jsonName": "career-bd4",
+      "internalComponentName": "ComponentCareer",
+      "path": "/career/",
+      "component": "/Users/ethan/GatsbyBoilerplate/src/pages/career.js",
+      "componentChunkName": "component---src-pages-career-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+      "pluginCreatorId": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/career.js",
+      "id": "SitePage /career/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4e7190f1edc0101054f256357a14c90c",
+        "description": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/ethan/GatsbyBoilerplate/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+      "pluginCreatorId": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "64f34a85f2057c58cf7265e66f032e04",
+        "description": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/ethan/GatsbyBoilerplate/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+      "pluginCreatorId": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "eced5c16b3a18aed599ae93c7f5c631b",
+        "description": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /services/": {
+      "jsonName": "services-522",
+      "internalComponentName": "ComponentServices",
+      "path": "/services/",
+      "component": "/Users/ethan/GatsbyBoilerplate/src/pages/services.js",
+      "componentChunkName": "component---src-pages-services-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+      "pluginCreatorId": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/services.js",
+      "id": "SitePage /services/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "58c48af8f1cbfc3b626f1f68c0ab01bf",
+        "description": "00747b0d-00f6-5e5a-9b52-30bf8d1e16cc",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/ethan/GatsbyBoilerplate/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bd2e3860fffbd42af32b15b5580bc591",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "69d3f892e271dd43f683efecaa101cd8"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
+      ],
+      "0ead1ec3-4993-5d2f-9710-758626f42aa4": [
+        "sq--src-components-image-js"
+      ],
+      "f0395f88-d039-5a73-a3ce-807666e832de": [
+        "sq--src-components-image-js"
+      ],
+      "510593d8-0c25-5175-bdd4-fef2caf56bea": [
+        "sq--src-components-image-js"
+      ],
+      "82209b92-be75-5dfc-a62e-e3a3e09f852d": [
+        "sq--src-components-image-js"
+      ],
+      "5f30dca0-976a-5e48-85b6-fd152dd923fb": [
+        "sq--src-components-image-js"
+      ],
+      "1f83f371-a583-5b2c-bf8b-222a55551878": [
+        "sq--src-components-image-js"
+      ],
+      "60bd1622-82cc-5311-8225-d733f8ab8c91": [
+        "sq--src-components-image-js"
+      ]
+    },
+    "connections": {
+      "File": [
+        "sq--src-components-image-js"
+      ],
+      "MarkdownRemark": [
+        "/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "sq--src-components-layout-js": 755544856,
+    "sq--src-components-seo-js": 2417117884,
+    "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "404-22d": "820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "how-it-works-9f8": "257/path---how-it-works-9-f-8-5b3-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "pricing-665": "823/path---pricing-665-bf7-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "404-html-516": "285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "index": "474/path---index-6a9-re79zpboxV376loceMs8IIm5Nk",
+    "sq--src-components-image-js": 2351125363,
+    "blog-f7a": "433/path---blog-f-7-a-05d-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "services-522": "984/path---services-522-7f2-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "career-bd4": "151/path---career-bd-4-56e-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "contact-26a": "279/path---contact-26-a-cd9-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "about-f34": "708/path---about-f-34-4c2-0SUcWyAf8ecbYDsMhQkEfPzV8"
+  },
+  "components": {
+    "/Users/ethan/GatsbyBoilerplate/.cache/dev-404-page.js": {
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/.cache/dev-404-page.js",
+      "query": "",
+      "pages": [
+        "/dev-404-page/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/ethan/GatsbyBoilerplate/src/pages/404.js": {
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/404.js",
+      "query": "",
+      "pages": [
+        "/404/",
+        "/404.html"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/ethan/GatsbyBoilerplate/src/pages/about.js": {
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/about.js",
+      "query": "",
+      "pages": [
+        "/about/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/ethan/GatsbyBoilerplate/src/pages/blog.js": {
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/blog.js",
+      "query": "",
+      "pages": [
+        "/blog/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/ethan/GatsbyBoilerplate/src/pages/career.js": {
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/career.js",
+      "query": "",
+      "pages": [
+        "/career/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/ethan/GatsbyBoilerplate/src/pages/contact.js": {
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/contact.js",
+      "query": "",
+      "pages": [
+        "/contact/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/ethan/GatsbyBoilerplate/src/pages/index.js": {
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/index.js",
+      "query": "query usersEthanGatsbyBoilerplateSrcPagesIndexJs3503747511 {\n  allMarkdownRemark(filter: {fileAbsolutePath: {regex: \"/content/pages/\"}}) {\n    edges {\n      node {\n        excerpt(pruneLength: 250)\n        id\n        frontmatter {\n          title\n          heading\n          subheading\n          image\n        }\n      }\n    }\n  }\n}\n",
+      "pages": [
+        "/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/ethan/GatsbyBoilerplate/src/pages/services.js": {
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/services.js",
+      "query": "",
+      "pages": [
+        "/services/"
+      ],
+      "isInBootstrap": false
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-image-js": {
+      "name": "usersEthanGatsbyBoilerplateSrcComponentsImageJs2351125363",
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query usersEthanGatsbyBoilerplateSrcComponentsImageJs2351125363 {\n  images: allFile {\n    edges {\n      node {\n        relativePath\n        name\n        publicURL\n        childImageSharp {\n          sizes(maxWidth: 600) {\n            ...GatsbyImageSharpSizes\n          }\n        }\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpSizes on ImageSharpSizes {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 2351125363
+    },
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
+    },
+    "sq--src-components-seo-js": {
+      "name": "usersEthanGatsbyBoilerplateSrcComponentsSeoJs2417117884",
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query usersEthanGatsbyBoilerplateSrcComponentsSeoJs2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 2417117884
+    }
+  }
+}
