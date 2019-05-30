@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/ethan/GatsbyBoilerplate/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "69e203c603a7dd707448ee069496eb07",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -646,7 +656,7 @@
       "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-source-filesystem",
       "id": "d40727f4-266f-5f07-bd66-626d4211a89a",
       "name": "gatsby-source-filesystem",
-      "version": "2.0.28",
+      "version": "2.0.37",
       "pluginOptions": {
         "plugins": [],
         "name": "images",
@@ -662,7 +672,7 @@
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "2.0.28",
+        "version": "2.0.37",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
@@ -764,7 +774,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "c65f912737542ac85d166754f55a3e00",
+        "contentDigest": "255b7be325da0e9a081d22fc9c5e1a37",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -773,7 +783,7 @@
       "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-source-filesystem",
       "id": "8bf01c4f-808c-5aa3-aedd-8f705b681f29",
       "name": "gatsby-source-filesystem",
-      "version": "2.0.28",
+      "version": "2.0.37",
       "pluginOptions": {
         "plugins": [],
         "name": "blog",
@@ -789,7 +799,7 @@
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "2.0.28",
+        "version": "2.0.37",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
@@ -891,7 +901,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "096557cced3224d274e9ea075acb2df1",
+        "contentDigest": "9a52d2f754cd02755dba1c48e92d7185",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -900,7 +910,7 @@
       "resolve": "/Users/ethan/GatsbyBoilerplate/node_modules/gatsby-source-filesystem",
       "id": "86e4c45f-26ea-5007-a376-68624e85e06e",
       "name": "gatsby-source-filesystem",
-      "version": "2.0.28",
+      "version": "2.0.37",
       "pluginOptions": {
         "plugins": [],
         "name": "pages",
@@ -916,7 +926,7 @@
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "2.0.28",
+        "version": "2.0.37",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
@@ -1018,7 +1028,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "28d687dd225e1350acdb6d0c7b5ef053",
+        "contentDigest": "adcea1dac4ddbee189fb506cee7e0148",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1341,11 +1351,13 @@
       "resolve": "/Users/ethan/GatsbyBoilerplate",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "d07ed687aa4581a7514f1fb53383d566",
+      "version": "eb8dfed3a66ccfbbe98feacb7b871f48",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "onCreateNode"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/ethan/GatsbyBoilerplate",
@@ -1397,7 +1409,7 @@
           },
           {
             "name": "gatsby-source-filesystem",
-            "version": "^2.0.28"
+            "version": "^2.0.37"
           },
           {
             "name": "gatsby-transformer-remark",
@@ -1457,7 +1469,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "4ee5856a78cd40154d02870786ed983b",
+        "contentDigest": "7eb59429e54842d3a9c6427a47bf6454",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1571,14 +1583,16 @@
         "description": "Gatsby Boilerplate",
         "author": "Ethan Eisenhard"
       },
+      "port": 8000,
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-05-29T02:36:58.224Z",
+      "buildTime": "2019-05-30T00:34:22.371Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "915315dacf3278c14956662aa39c32ec",
+        "contentDigest": "77c8a869e1109aaf29d8ab98d16d44be",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1588,7 +1602,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "8beb74ee27840ff0861ab0fb00c1c1a5",
+        "contentDigest": "a35457772038156e9b99feba113ea9dc",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1600,7 +1614,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2019-05-29T02:12:39.813Z",
-      "accessTime": "2019-05-29T02:37:00.312Z",
+      "accessTime": "2019-05-30T00:34:26.413Z",
       "changeTime": "2019-05-29T02:12:39.813Z",
       "birthTime": "2019-04-02T23:16:36.873Z",
       "root": "/",
@@ -1615,14 +1629,14 @@
       "uid": 502,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 16087278,
       "blocks": 0,
-      "atimeMs": 1559097420311.8125,
+      "atimeMs": 1559176466413.2583,
       "mtimeMs": 1559095959813.0215,
       "ctimeMs": 1559095959813.0215,
       "birthtimeMs": 1554246996872.8896,
-      "atime": "2019-05-29T02:37:00.312Z",
+      "atime": "2019-05-30T00:34:26.413Z",
       "mtime": "2019-05-29T02:12:39.813Z",
       "ctime": "2019-05-29T02:12:39.813Z",
       "birthtime": "2019-04-02T23:16:36.873Z"
@@ -1645,7 +1659,7 @@
       "size": 521,
       "prettySize": "521 B",
       "modifiedTime": "2019-05-29T02:12:13.460Z",
-      "accessTime": "2019-05-29T02:12:59.151Z",
+      "accessTime": "2019-05-29T23:46:56.985Z",
       "changeTime": "2019-05-29T02:12:40.825Z",
       "birthTime": "2019-05-29T02:12:13.452Z",
       "root": "/",
@@ -1660,14 +1674,14 @@
       "uid": 502,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 18518703,
       "blocks": 8,
-      "atimeMs": 1559095979150.9565,
+      "atimeMs": 1559173616985.1655,
       "mtimeMs": 1559095933459.6555,
       "ctimeMs": 1559095960824.746,
       "birthtimeMs": 1559095933451.6719,
-      "atime": "2019-05-29T02:12:59.151Z",
+      "atime": "2019-05-29T23:46:56.985Z",
       "mtime": "2019-05-29T02:12:13.460Z",
       "ctime": "2019-05-29T02:12:40.825Z",
       "birthtime": "2019-05-29T02:12:13.452Z"
@@ -1692,7 +1706,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-04-02T23:16:36.874Z",
-      "accessTime": "2019-05-29T02:13:10.744Z",
+      "accessTime": "2019-05-30T00:30:09.886Z",
       "changeTime": "2019-04-08T18:36:07.797Z",
       "birthTime": "2019-04-02T23:16:36.874Z",
       "root": "/",
@@ -1707,14 +1721,14 @@
       "uid": 502,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 16087298,
       "blocks": 48,
-      "atimeMs": 1559095990743.748,
+      "atimeMs": 1559176209885.5605,
       "mtimeMs": 1554246996874.1472,
       "ctimeMs": 1554748567796.7324,
       "birthtimeMs": 1554246996873.9678,
-      "atime": "2019-05-29T02:13:10.744Z",
+      "atime": "2019-05-30T00:30:09.886Z",
       "mtime": "2019-04-02T23:16:36.874Z",
       "ctime": "2019-04-08T18:36:07.797Z",
       "birthtime": "2019-04-02T23:16:36.874Z"
@@ -1737,7 +1751,7 @@
       "size": 895,
       "prettySize": "895 B",
       "modifiedTime": "2019-05-29T01:30:18.548Z",
-      "accessTime": "2019-05-29T02:11:24.732Z",
+      "accessTime": "2019-05-29T23:46:51.128Z",
       "changeTime": "2019-05-29T01:30:18.549Z",
       "birthTime": "2019-05-29T01:30:18.536Z",
       "root": "/",
@@ -1752,17 +1766,27 @@
       "uid": 502,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 18517209,
       "blocks": 8,
-      "atimeMs": 1559095884732.2302,
+      "atimeMs": 1559173611128.1438,
       "mtimeMs": 1559093418547.8381,
       "ctimeMs": 1559093418548.5889,
       "birthtimeMs": 1559093418536.1423,
-      "atime": "2019-05-29T02:11:24.732Z",
+      "atime": "2019-05-29T23:46:51.128Z",
       "mtime": "2019-05-29T01:30:18.548Z",
       "ctime": "2019-05-29T01:30:18.549Z",
       "birthtime": "2019-05-29T01:30:18.536Z"
+    },
+    "510593d8-0c25-5175-bdd4-fef2caf56bea": {
+      "id": "510593d8-0c25-5175-bdd4-fef2caf56bea",
+      "children": [],
+      "parent": "f0395f88-d039-5a73-a3ce-807666e832de",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "5f30dca0-976a-5e48-85b6-fd152dd923fb": {
       "id": "5f30dca0-976a-5e48-85b6-fd152dd923fb",
@@ -1782,7 +1806,7 @@
       "size": 75036,
       "prettySize": "75 kB",
       "modifiedTime": "2019-04-05T19:48:25.924Z",
-      "accessTime": "2019-05-29T02:11:03.706Z",
+      "accessTime": "2019-05-29T23:46:51.128Z",
       "changeTime": "2019-04-08T18:36:07.796Z",
       "birthTime": "2019-04-05T19:48:25.838Z",
       "root": "/",
@@ -1797,34 +1821,24 @@
       "uid": 502,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 16087296,
       "blocks": 152,
-      "atimeMs": 1559095863705.8718,
+      "atimeMs": 1559173611128.1648,
       "mtimeMs": 1554493705923.782,
       "ctimeMs": 1554748567796.0005,
       "birthtimeMs": 1554493705837.6443,
-      "atime": "2019-05-29T02:11:03.706Z",
+      "atime": "2019-05-29T23:46:51.128Z",
       "mtime": "2019-04-05T19:48:25.924Z",
       "ctime": "2019-04-08T18:36:07.796Z",
       "birthtime": "2019-04-05T19:48:25.838Z"
-    },
-    "510593d8-0c25-5175-bdd4-fef2caf56bea": {
-      "id": "510593d8-0c25-5175-bdd4-fef2caf56bea",
-      "children": [],
-      "parent": "f0395f88-d039-5a73-a3ce-807666e832de",
-      "internal": {
-        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "44f00f76-a86c-5874-b4e6-980688bf8f16": {
       "id": "44f00f76-a86c-5874-b4e6-980688bf8f16",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "aa7d72190fb2817d5df5ca3cda9b989b",
+        "contentDigest": "3488e615941cf5a6c768443e822c131a",
         "type": "Directory",
         "description": "Directory \"content/blog\"",
         "owner": "gatsby-source-filesystem"
@@ -1833,11 +1847,11 @@
       "absolutePath": "/Users/ethan/GatsbyBoilerplate/content/blog",
       "relativePath": "",
       "extension": "",
-      "size": 96,
-      "prettySize": "96 B",
-      "modifiedTime": "2019-04-03T17:43:32.543Z",
-      "accessTime": "2019-05-29T02:37:00.321Z",
-      "changeTime": "2019-04-08T18:35:45.179Z",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2019-05-30T00:26:03.916Z",
+      "accessTime": "2019-05-30T00:34:26.425Z",
+      "changeTime": "2019-05-30T00:26:03.916Z",
       "birthTime": "2019-04-03T16:55:32.144Z",
       "root": "/",
       "dir": "/Users/ethan/GatsbyBoilerplate/content",
@@ -1847,21 +1861,68 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 3,
+      "nlink": 4,
       "uid": 502,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 16039205,
       "blocks": 0,
-      "atimeMs": 1559097420321.196,
-      "mtimeMs": 1554313412542.9363,
-      "ctimeMs": 1554748545178.505,
+      "atimeMs": 1559176466424.8352,
+      "mtimeMs": 1559175963915.9668,
+      "ctimeMs": 1559175963915.9668,
       "birthtimeMs": 1554310532143.73,
-      "atime": "2019-05-29T02:37:00.321Z",
-      "mtime": "2019-04-03T17:43:32.543Z",
-      "ctime": "2019-04-08T18:35:45.179Z",
+      "atime": "2019-05-30T00:34:26.425Z",
+      "mtime": "2019-05-30T00:26:03.916Z",
+      "ctime": "2019-05-30T00:26:03.916Z",
       "birthtime": "2019-04-03T16:55:32.144Z"
+    },
+    "a06ca808-921e-5116-9102-cda68911d9df": {
+      "id": "a06ca808-921e-5116-9102-cda68911d9df",
+      "children": [
+        "584283ac-a3bb-59ba-977b-e5e77e66eeab"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a35bcad6e51be09531c90bc20727f3d8",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/2019-05-29-top-ten-favorite-blogs.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/Users/ethan/GatsbyBoilerplate/content/blog/2019-05-29-top-ten-favorite-blogs.md",
+      "relativePath": "2019-05-29-top-ten-favorite-blogs.md",
+      "extension": "md",
+      "size": 178,
+      "prettySize": "178 B",
+      "modifiedTime": "2019-05-30T00:26:03.916Z",
+      "accessTime": "2019-05-30T00:34:26.425Z",
+      "changeTime": "2019-05-30T00:26:03.916Z",
+      "birthTime": "2019-05-30T00:26:03.916Z",
+      "root": "/",
+      "dir": "/Users/ethan/GatsbyBoilerplate/content/blog",
+      "base": "2019-05-29-top-ten-favorite-blogs.md",
+      "ext": ".md",
+      "name": "2019-05-29-top-ten-favorite-blogs",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 18613540,
+      "blocks": 8,
+      "atimeMs": 1559176466424.9553,
+      "mtimeMs": 1559175963916.0906,
+      "ctimeMs": 1559175963916.0906,
+      "birthtimeMs": 1559175963915.959,
+      "atime": "2019-05-30T00:34:26.425Z",
+      "mtime": "2019-05-30T00:26:03.916Z",
+      "ctime": "2019-05-30T00:26:03.916Z",
+      "birthtime": "2019-05-30T00:26:03.916Z"
     },
     "1f83f371-a583-5b2c-bf8b-222a55551878": {
       "id": "1f83f371-a583-5b2c-bf8b-222a55551878",
@@ -1883,7 +1944,7 @@
       "size": 108,
       "prettySize": "108 B",
       "modifiedTime": "2019-04-03T17:43:32.543Z",
-      "accessTime": "2019-05-29T02:11:24.731Z",
+      "accessTime": "2019-05-29T23:46:56.984Z",
       "changeTime": "2019-04-08T18:35:45.178Z",
       "birthTime": "2019-04-03T17:43:32.543Z",
       "root": "/",
@@ -1898,17 +1959,42 @@
       "uid": 502,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 16039206,
       "blocks": 8,
-      "atimeMs": 1559095884731.2993,
+      "atimeMs": 1559173616984.426,
       "mtimeMs": 1554313412543.0652,
       "ctimeMs": 1554748545178.3975,
       "birthtimeMs": 1554313412542.9187,
-      "atime": "2019-05-29T02:11:24.731Z",
+      "atime": "2019-05-29T23:46:56.984Z",
       "mtime": "2019-04-03T17:43:32.543Z",
       "ctime": "2019-04-08T18:35:45.178Z",
       "birthtime": "2019-04-03T17:43:32.543Z"
+    },
+    "584283ac-a3bb-59ba-977b-e5e77e66eeab": {
+      "id": "584283ac-a3bb-59ba-977b-e5e77e66eeab",
+      "children": [],
+      "parent": "a06ca808-921e-5116-9102-cda68911d9df",
+      "internal": {
+        "content": "this is my top ten favorite blogs number 1) goes to Ethan\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "17ebddde7d82140c2e7493a82c154459",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "top ten favorite blogs",
+        "date": "2019-05-30T00:25:15.902Z",
+        "description": "this is my top ten favorite blogs...."
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "this is my top ten favorite blogs number 1) goes to Ethan\n",
+      "fileAbsolutePath": "/Users/ethan/GatsbyBoilerplate/content/blog/2019-05-29-top-ten-favorite-blogs.md",
+      "fields": {
+        "slug": "/2019-05-29-top-ten-favorite-blogs/"
+      }
     },
     "9b9495e5-a40c-5cc3-9ed7-9f202b59aaad": {
       "id": "9b9495e5-a40c-5cc3-9ed7-9f202b59aaad",
@@ -1918,7 +2004,10 @@
         "content": "this is the ultimate test\n",
         "type": "MarkdownRemark",
         "contentDigest": "0f2832fdc94de6968fc82f19948054e9",
-        "owner": "gatsby-transformer-remark"
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
       },
       "frontmatter": {
         "title": "testing",
@@ -1927,14 +2016,17 @@
       },
       "excerpt": "",
       "rawMarkdownBody": "this is the ultimate test\n",
-      "fileAbsolutePath": "/Users/ethan/GatsbyBoilerplate/content/blog/2019-04-03-testing.md"
+      "fileAbsolutePath": "/Users/ethan/GatsbyBoilerplate/content/blog/2019-04-03-testing.md",
+      "fields": {
+        "slug": "/2019-04-03-testing/"
+      }
     },
     "e45ab09e-9011-5690-9449-861128a16e61": {
       "id": "e45ab09e-9011-5690-9449-861128a16e61",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "27859b3c34b464744f5671764835fa00",
+        "contentDigest": "1c3988fe5af34c813f3a89dacd0229ef",
         "type": "Directory",
         "description": "Directory \"content/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1945,9 +2037,9 @@
       "extension": "",
       "size": 96,
       "prettySize": "96 B",
-      "modifiedTime": "2019-04-07T16:06:24.284Z",
-      "accessTime": "2019-05-29T02:37:00.324Z",
-      "changeTime": "2019-04-08T18:35:45.180Z",
+      "modifiedTime": "2019-05-30T00:06:20.513Z",
+      "accessTime": "2019-05-30T00:34:26.437Z",
+      "changeTime": "2019-05-30T00:06:20.513Z",
       "birthTime": "2019-04-03T17:44:17.496Z",
       "root": "/",
       "dir": "/Users/ethan/GatsbyBoilerplate/content",
@@ -1961,16 +2053,16 @@
       "uid": 502,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
+      "blksize": 4096,
       "ino": 16039207,
       "blocks": 0,
-      "atimeMs": 1559097420323.8176,
-      "mtimeMs": 1554653184284.204,
-      "ctimeMs": 1554748545179.5076,
+      "atimeMs": 1559176466436.5706,
+      "mtimeMs": 1559174780512.853,
+      "ctimeMs": 1559174780512.853,
       "birthtimeMs": 1554313457496.1191,
-      "atime": "2019-05-29T02:37:00.324Z",
-      "mtime": "2019-04-07T16:06:24.284Z",
-      "ctime": "2019-04-08T18:35:45.180Z",
+      "atime": "2019-05-30T00:34:26.437Z",
+      "mtime": "2019-05-30T00:06:20.513Z",
+      "ctime": "2019-05-30T00:06:20.513Z",
       "birthtime": "2019-04-03T17:44:17.496Z"
     },
     "60bd1622-82cc-5311-8225-d733f8ab8c91": {
@@ -1980,7 +2072,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "1165ed47996ed6feb62ff19094d34a6a",
+        "contentDigest": "1c7172edfa9b73287536a474d78ea717",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/pages/index.md\"",
@@ -1990,12 +2082,12 @@
       "absolutePath": "/Users/ethan/GatsbyBoilerplate/content/pages/index.md",
       "relativePath": "index.md",
       "extension": "md",
-      "size": 379,
-      "prettySize": "379 B",
-      "modifiedTime": "2019-04-07T16:06:24.284Z",
-      "accessTime": "2019-05-29T02:11:24.731Z",
-      "changeTime": "2019-04-08T18:35:45.179Z",
-      "birthTime": "2019-04-07T16:06:24.284Z",
+      "size": 382,
+      "prettySize": "382 B",
+      "modifiedTime": "2019-05-30T00:06:20.513Z",
+      "accessTime": "2019-05-30T00:26:19.741Z",
+      "changeTime": "2019-05-30T00:06:20.513Z",
+      "birthTime": "2019-05-30T00:06:20.513Z",
       "root": "/",
       "dir": "/Users/ethan/GatsbyBoilerplate/content/pages",
       "base": "index.md",
@@ -2008,17 +2100,17 @@
       "uid": 502,
       "gid": 20,
       "rdev": 0,
-      "blksize": 4194304,
-      "ino": 16039208,
+      "blksize": 4096,
+      "ino": 18613065,
       "blocks": 8,
-      "atimeMs": 1559095884731.3835,
-      "mtimeMs": 1554653184284.365,
-      "ctimeMs": 1554748545179.372,
-      "birthtimeMs": 1554653184284.1946,
-      "atime": "2019-05-29T02:11:24.731Z",
-      "mtime": "2019-04-07T16:06:24.284Z",
-      "ctime": "2019-04-08T18:35:45.179Z",
-      "birthtime": "2019-04-07T16:06:24.284Z"
+      "atimeMs": 1559175979740.5571,
+      "mtimeMs": 1559174780512.9785,
+      "ctimeMs": 1559174780512.9785,
+      "birthtimeMs": 1559174780512.8462,
+      "atime": "2019-05-30T00:26:19.741Z",
+      "mtime": "2019-05-30T00:06:20.513Z",
+      "ctime": "2019-05-30T00:06:20.513Z",
+      "birthtime": "2019-05-30T00:06:20.513Z"
     },
     "9e3638fe-970c-5778-b528-9f66eb2f9094": {
       "id": "9e3638fe-970c-5778-b528-9f66eb2f9094",
@@ -2027,18 +2119,24 @@
       "internal": {
         "content": "Netlify Analytics\n",
         "type": "MarkdownRemark",
-        "contentDigest": "a73f1fb7258d108eeb4d82e12d3cbf3f",
-        "owner": "gatsby-transformer-remark"
+        "contentDigest": "1881dd7f5f9cddf5e92dea0d4030b735",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
       },
       "frontmatter": {
         "title": "Introducing",
         "image": "/images/trending.svg",
-        "heading": "Netlify Analtyics",
-        "subheading": "Netlify Analytics allows you to test your site without any pain. With real-time data we provide your company with true personalization, simple A/B testing, and seamless integration. Best of all, without any javascript libraries or loss of any performance."
+        "heading": "Gatsby Boilerplate",
+        "subheading": "Gatsby Boilerplate allows you to make a website without any pain. With easy components we provide your company with true personalization, simple A/B testing, and seamless integration. Best of all, without any javascript libraries or loss of any performance."
       },
       "excerpt": "",
       "rawMarkdownBody": "Netlify Analytics\n",
-      "fileAbsolutePath": "/Users/ethan/GatsbyBoilerplate/content/pages/index.md"
+      "fileAbsolutePath": "/Users/ethan/GatsbyBoilerplate/content/pages/index.md",
+      "fields": {
+        "slug": "/"
+      }
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -2211,7 +2309,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "69d3f892e271dd43f683efecaa101cd8"
+    "PLUGINS_HASH": "1c90246190353fd69e7c0e6e51974579"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -2234,6 +2332,9 @@
       "5f30dca0-976a-5e48-85b6-fd152dd923fb": [
         "sq--src-components-image-js"
       ],
+      "a06ca808-921e-5116-9102-cda68911d9df": [
+        "sq--src-components-image-js"
+      ],
       "1f83f371-a583-5b2c-bf8b-222a55551878": [
         "sq--src-components-image-js"
       ],
@@ -2246,7 +2347,8 @@
         "sq--src-components-image-js"
       ],
       "MarkdownRemark": [
-        "/"
+        "/",
+        "/blog/"
       ]
     }
   },
@@ -2258,15 +2360,23 @@
     "how-it-works-9f8": "257/path---how-it-works-9-f-8-5b3-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "pricing-665": "823/path---pricing-665-bf7-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "404-html-516": "285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "index": "474/path---index-6a9-re79zpboxV376loceMs8IIm5Nk",
+    "index": "868/path---index-6a9-537BomgjcMeEvdV3k9cE3ROGSb8",
     "sq--src-components-image-js": 2351125363,
-    "blog-f7a": "433/path---blog-f-7-a-05d-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "blog-f7a": "760/path---blog-f-7-a-05d-FDBgv4kOkeIyh9RANJjc3bFrlI",
     "services-522": "984/path---services-522-7f2-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "career-bd4": "151/path---career-bd-4-56e-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "contact-26a": "279/path---contact-26-a-cd9-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "about-f34": "708/path---about-f-34-4c2-0SUcWyAf8ecbYDsMhQkEfPzV8"
   },
   "components": {
+    "/Users/ethan/GatsbyBoilerplate/.cache/dev-404-page.js": {
+      "componentPath": "/Users/ethan/GatsbyBoilerplate/.cache/dev-404-page.js",
+      "query": "",
+      "pages": [
+        "/dev-404-page/"
+      ],
+      "isInBootstrap": false
+    },
     "/Users/ethan/GatsbyBoilerplate/src/pages/404.js": {
       "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/404.js",
       "query": "",
@@ -2274,7 +2384,7 @@
         "/404/",
         "/404.html"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/ethan/GatsbyBoilerplate/src/pages/about.js": {
       "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/about.js",
@@ -2282,15 +2392,15 @@
       "pages": [
         "/about/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/ethan/GatsbyBoilerplate/src/pages/blog.js": {
       "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/blog.js",
-      "query": "",
+      "query": "query usersEthanGatsbyBoilerplateSrcPagesBlogJs334251617 {\n  allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date]}, filter: {fileAbsolutePath: {regex: \"/content/blog/\"}}) {\n    edges {\n      node {\n        excerpt(pruneLength: 500)\n        id\n        frontmatter {\n          title\n          date(formatString: \"dddd DD MMMM YYYY\")\n          description\n        }\n        fields {\n          slug\n        }\n      }\n    }\n  }\n}\n",
       "pages": [
         "/blog/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/ethan/GatsbyBoilerplate/src/pages/career.js": {
       "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/career.js",
@@ -2298,7 +2408,7 @@
       "pages": [
         "/career/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/ethan/GatsbyBoilerplate/src/pages/contact.js": {
       "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/contact.js",
@@ -2306,7 +2416,7 @@
       "pages": [
         "/contact/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/ethan/GatsbyBoilerplate/src/pages/index.js": {
       "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/index.js",
@@ -2314,7 +2424,7 @@
       "pages": [
         "/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/ethan/GatsbyBoilerplate/src/pages/services.js": {
       "componentPath": "/Users/ethan/GatsbyBoilerplate/src/pages/services.js",
@@ -2322,7 +2432,7 @@
       "pages": [
         "/services/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     }
   },
   "staticQueryComponents": {
