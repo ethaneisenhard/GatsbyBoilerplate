@@ -5,6 +5,16 @@
         "path": "/"
     },
     {
+        "componentChunkName": "component---src-components-blog-post-js",
+        "jsonName": "2019-04-03-testing-fba",
+        "path": "/2019-04-03-testing/"
+    },
+    {
+        "componentChunkName": "component---src-components-blog-post-js",
+        "jsonName": "2019-05-29-top-ten-favorite-blogs-3c1",
+        "path": "/2019-05-29-top-ten-favorite-blogs/"
+    },
+    {
         "componentChunkName": "component---src-pages-404-js",
         "jsonName": "404-html-516",
         "path": "/404.html"
